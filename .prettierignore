@@ -1,0 +1,7 @@
+# Ignore artifacts:
+build
+coverage
+README.md
+package.json
+package-lock.json
+prisma/**
