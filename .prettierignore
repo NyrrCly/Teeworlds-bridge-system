@@ -1,7 +1,6 @@
 # Ignore artifacts:
-build
-coverage
+dist/**
+node_modules/**
 README.md
 package.json
 package-lock.json
-prisma/**
