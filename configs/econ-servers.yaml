@@ -1,7 +1,7 @@
 servers:
   CopyLoveBox:
     host: localhost
-    port: 12650
+    port: 8303
     password: 123
-    webhook: https://discord.com/api/webhooks/1411353398397239316/hjASPg0mDfo9UWjwitiQL0W-37LKN1XkQR1oLq-tDm67nBOczPLSSarvc4EMftE6BIQ5
+    webhook: webhook-link
     econRegex: "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}) I chat: \\d+:-?\\d+:([^:]+): (.*)"
