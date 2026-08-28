@@ -1,4 +1,4 @@
-FROM node:23-alpine
+FROM node:26-alpine
 
 WORKDIR /app
 
@@ -8,6 +8,4 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build
-
-CMD ["node", "dist/index.js"]
+CMD ["npm", "start"]
